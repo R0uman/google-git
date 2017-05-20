@@ -38,10 +38,10 @@ public class TestGoogle {
 	@Test
 	public void loginCorrect(){
 		
-		loginPage.signIn("xxxx");
+		loginPage.signIn("xxx");
 		inboxPage.clickWriteButton();
 		writePage.sendEmail("r0um4n@gmail.com", "Test 04", "This ist the 04 Email!");
-		//inboxPage.clickInboxLink();
+		inboxPage.clickInboxLink();
 		inboxPage.signOut();
 	
 	}
