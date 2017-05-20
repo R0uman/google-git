@@ -38,7 +38,7 @@ public class TestGoogle {
 	@Test
 	public void loginCorrect(){
 		
-		loginPage.signIn("Tube12345");
+		loginPage.signIn("xxxx");
 		inboxPage.clickWriteButton();
 		writePage.sendEmail("r0um4n@gmail.com", "Test 04", "This ist the 04 Email!");
 		//inboxPage.clickInboxLink();
